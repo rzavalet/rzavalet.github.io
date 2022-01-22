@@ -28,7 +28,7 @@ twitter_username: rzavalet
 github_username:  rzavalet
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
