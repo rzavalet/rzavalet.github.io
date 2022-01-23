@@ -28,9 +28,28 @@ twitter_username: rzavalet
 github_username:  rzavalet
 
 # Build settings
-theme: jekyll-theme-hacker
+#theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+#  - jekyll-remote-theme
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
